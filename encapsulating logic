@@ -1,0 +1,14 @@
+//  we use it to avoid from rewriting code 
+
+// in auth model we code like this  code is also reuse in use module
+//
+// const jwt = jWt.sign({_id:user._id},process.env.SECRET_KEY)
+
+
+// 1st we have payload it has only one value  may it will 5 or 6 values 
+
+// therefore we encapsuklate to avoid it from error
+
+// we store it in seperate object which have full information
+
+//
